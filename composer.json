@@ -1,0 +1,30 @@
+{
+  "name": "mrdrawn/php-base-mvc",
+  "description": "Minha base PHP MVC",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Felipe",
+      "email": "felipe@moonkode.com",
+      "role": "Developer",
+      "homepage": "https://moonkode.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Config\\": "config/"
+    },
+    "files": [
+      "config/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.8",
+    "league/plates": "v4.0.0-alpha",
+    "pagseguro/pagseguro-php-sdk": "6.0.0",
+    "mercadopago/sdk": "v0.5.6",
+    "phpmailer/phpmailer": "v6.5.1"
+  }
+}
